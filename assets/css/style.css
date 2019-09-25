@@ -1,0 +1,306 @@
+.header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #ffffff;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom:#cccccc;
+    border-bottom-width: 2px;
+    border-style: solid;
+    text-align: center;
+    height: 70px;
+    overflow: auto;
+}
+.marginHeader {
+    width: 960px;
+    position: relative;
+    height: 100%;
+    background-color: white;
+    left: 200px;
+}
+body {
+    background-image: url(./../images/circle-blues.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px;
+    position: absolute;
+    float: left;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#firstpage {
+    background-color: white;
+    width: 920px;
+    position: relative;
+    height: 600px;
+    top: 102px;
+    left: 200px;
+    padding: 20px;
+    overflow: hidden;
+    float: left;
+}
+#secondpage {
+    background-color: white;
+    width: 920px;
+    position: relative;
+    height: 600px;
+    top: 102px;
+    left: 200px;
+    padding: 20px;
+    overflow: hidden;
+}
+#thirdpage {
+    background-color: white;
+    width: 920px;
+    position: relative;
+    height: 600px;
+    top: 102px;
+    left: 200px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.navbar {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#about {
+    padding-right: 10px;
+    border-right: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    color: #777777;
+}
+#portfolio {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    color: #777777;
+}
+#contact {
+    padding-left: 10px;
+    color: #777777;
+}
+.sectionHead {
+    color: #4aaaa5;
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: lightgrey;
+    border-width: 2px;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-bottom: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+#myPicture {
+    float: left;
+    height: 180px; 
+    width: 20%;
+    margin-right: 20px;
+}
+
+.firstPara {
+    float: left;
+    width: 77%;
+}
+.secondPara {
+    clear: left;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    height: 40px;
+    border-top: 8px;
+    border: solid;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: #4aaaa5;
+}
+#name {
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 920px;
+    position: absolute;
+    top: 120px;
+    height: 20px;
+    background-color: white !important;
+    padding: 20px;
+}
+#email {
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 920px;
+    position: absolute;
+    top: 210px;
+    height: 20px;
+    background-color: white !important;
+    padding: 20px;
+}
+#message {
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 920px;
+    position: absolute;
+    top: 302px;
+    height: 200px;
+    background-color: white !important;
+    padding: 20px;
+} 
+form {
+    all:unset;
+}
+#submit {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    bottom: 40px;
+}
+#photoWrapper {
+    background-color: white;
+    z-index: 20;
+    height: 85%;
+    width: 40%;
+    overflow: hidden;
+}
+#photo1 {
+    height: 150px;
+    width: 150px;
+    z-index: 21;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#photo2 {
+    height: 150px;
+    width: 150px;
+    z-index: 21;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#photo3 {
+    height: 150px;
+    width: 150px;
+    z-index: 21;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+#photo4 {
+    height: 150px;
+    width: 150px;
+    z-index: 21;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#photo5 {
+    height: 150px;
+    width: 150px;
+    z-index: 21;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#button1 {
+    clear: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 25;
+    bottom: 240px;
+    right: 170px;
+    width: 150px;
+}
+#button2 {
+    clear: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    z-index: 25;
+    bottom: 280px;
+    right: 0px;
+    width: 150px;
+}
+#button3 {
+    clear: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 25;
+    bottom: 150px;
+    right: 170px;
+    width: 150px;
+}
+#button4 {
+    clear: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    z-index: 25;
+    bottom: 190px;
+    right: 0px;
+    width: 150px;
+}
+#button5 {
+    clear: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 25;
+    bottom: 60px;
+    right: 170px;
+    width: 150px;
+}
